@@ -1,0 +1,159 @@
+/* Estilos generales */
+.body_app {
+    /*background-image: url('/images/background.jpg');*/
+    background-color:aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Estilos card */
+.card-header-custom {
+    background-color:#b3e5fc; /* Color personalizado para el encabezado */
+    color:black; /* Color del texto */
+    margin: 2px;
+    /*padding: 3px;*/
+    padding-bottom: 0px;
+    padding-top: 4px;
+    /*padding-right: 3px;*/ 
+}
+.card-body-custom {
+    background-color: white; /* Color personalizado para el cuerpo */
+    color: black; /* Color del texto */
+    margin: 1px;
+    padding: 1px;
+    /* padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px; */
+}
+.card-footer-custom {
+    background-color:white; /* Color personalizado para el pie */
+    color: black; /* Color del texto */
+    margin: 1px;
+    /*border: 1px solid white;*/
+    /* padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;*/
+    padding: 5px;
+    padding-right: 10px; 
+}
+.thead.tr {
+    background-color: blueviolet; /* Color personalizado para el pie */
+    color: black; /* Color del texto */
+}
+
+
+input {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+
+/* table */
+/* Estilo para el encabezado de la tabla */
+.table thead th {
+    background-color: white; /* Color de fondo del encabezado */
+    color: black; /* Color del texto del encabezado */
+}
+
+.table thead td {
+    background-color: white; /* Color de fondo del encabezado */
+    color: black; /* Color del texto del encabezado */
+}
+
+/* Estilo para el cuerpo de la tabla */
+.table tbody tr {
+    background-color: #33c1ff; /* Color de fondo de las filas del cuerpo */
+    color: black; /* Color del texto del cuerpo */
+}
+
+/* Estilo para el pie de la tabla */
+.table tfoot th {
+    background-color: #28a745; /* Color de fondo del pie */
+    color: white; /* Color del texto del pie */
+}
+
+/* Estilo para las filas pares del cuerpo (alternancia de colores) */
+.table tbody tr:nth-child(even) {
+    background-color: #b3e5fc; /* Color de fondo alternativo para filas pares */
+}
+
+
+/* table */
+/* Eliminar bordes de la tabla */
+table {
+    border-collapse: collapse; /* Evita que las celdas tengan bordes adicionales */
+    width: 100%; /* Ajustar el ancho de la tabla */
+}
+
+/* Eliminar bordes de celdas, filas y encabezados */
+th, td {
+    border: none; /* Eliminar bordes de celdas */
+    padding: 8px; /* Espaciado interno de celdas */
+}
+
+/* Opcional: Eliminar bordes de filas */
+tr {
+    border: none; /* Eliminar bordes de filas */
+}
+
+/* Opcional: Añadir estilos adicionales como color de fondo o color del texto */
+th {
+    background-color: white; /* Color de fondo del encabezado */
+    color: black; /* Color del texto del encabezado */
+}
+
+td {
+    background-color: white; /* Color de fondo de las celdas */
+    color: black; /* Color del texto de las celdas */
+}
+
+
+/* dataTables */
+/* Cambiar el color de fondo del encabezado de la tabla */
+table.dataTable thead th {
+    background-color:#b3e5fc;
+    color: black;
+}
+
+/* Cambiar el color de fondo de las filas alternas */
+table.dataTable tbody tr:nth-child(odd) {
+    background-color: yellow;
+}
+
+/* Cambiar el color de fondo de las filas al pasar el mouse */
+table.dataTable tbody tr:hover {
+    background-color: blue;
+}
+
+/* Cambiar el color de los enlaces de paginación */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #4CAF50 !important;
+}
+
+/* Cambiar el color de fondo de los enlaces de paginación activos */
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #4CAF50 !important;
+    color: white !important;
+}
+
+/* Personalizar el cuadro de búsqueda */
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #4CAF50;
+    padding: 5px;
+    border-radius: 4px;
+    background-color:#b3e5fc;
+}
+
+/* Personalizar el menú de longitud de página */
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #4CAF50;
+    padding: 5px;
+    border-radius: 4px;
+    background-color:blue;
+}
